@@ -1,10 +1,10 @@
 # Identicon
 
-A elixir module for creating identicons. Read more on identicons here https://en.wikipedia.org/wiki/Identicon.
+An elixir module for creating identicons. Read more on identicons here https://en.wikipedia.org/wiki/Identicon.
 
-## Documentations
+## Documentation
 
-Documentation is wrriten using `ex_doc 1.4`, you can find it inside the doc folder. To view the whole documentation run `index.html`
+Documentation is wrriten using `ex_doc 1.4`, it is in the `doc` folder. To view the whole documentation, run `index.html` with the browser of your choice.
 
 ## Tests
 
@@ -23,7 +23,7 @@ Examples of identicon for Joe, Weenkus and Mary (input string in the identicon m
 ![alt tag](https://raw.githubusercontent.com/Weenkus/identicon/master/identicon_examples/Weenkus.png)
 ![alt tag](https://raw.githubusercontent.com/Weenkus/identicon/master/identicon_examples/Mary.png)
 
-To generate your own identicon you can use the `mix` tool.
+To generate your own identicon, use the `mix` tool.
 
   ```elixir
   iex -S mix
