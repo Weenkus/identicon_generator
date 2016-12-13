@@ -4,12 +4,17 @@ A elixir module for creating identicons. Read more on identicons here https://en
 
 ## Documentations
 
-Documentation is wrriten using exdoc, you can find it inside the doc folder. To view the whole documentation run index.html
+Documentation is wrriten using `ex_doc 1.4`, you can find it inside the doc folder. To view the whole documentation run `index.html`
 
 ## Tests
 
-The module has no specific unit tests except doc tests that can be run with mix test.
+The module has no specific unit tests except doc tests that can be run with `mix` tools.
 
+  ```elixir
+  iex -S mix
+  mix test
+  ```
+    
 ## Examples
 
 Examples of identicon for Joe, Weenkus and Mary (input string in the identicon module).
@@ -17,6 +22,13 @@ Examples of identicon for Joe, Weenkus and Mary (input string in the identicon m
 ![alt tag](https://raw.githubusercontent.com/Weenkus/identicon/master/identicon_examples/Joe.png)
 ![alt tag](https://raw.githubusercontent.com/Weenkus/identicon/master/identicon_examples/Weenkus.png)
 ![alt tag](https://raw.githubusercontent.com/Weenkus/identicon/master/identicon_examples/Mary.png)
+
+To generate your own identicon you can use the `mix` tool.
+
+  ```elixir
+  iex -S mix
+  Identicon.create("Your_name")
+  ```
 
 ## Installation
 
